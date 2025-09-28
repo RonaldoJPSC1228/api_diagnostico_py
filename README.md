@@ -21,13 +21,13 @@
 2. Abre una terminal (cmd o PowerShell) y verifica la versión de Python:  
     python --version
    
-3. Instalacion de dependencias
-    python -m ensurepip --upgrade
-    pip install fastapi uvicorn
-    pip install scikit-learn
+3. Instalacion de dependencias: 
+    - python -m ensurepip --upgrade
+    - pip install fastapi uvicorn
+    - pip install scikit-learn
 
-4. Ejecuta el servidor FastAPI
-    py -m uvicorn api_diagnostico:app --reload --port 8001
+4. Ejecuta el servidor FastAPI:
+    - py -m uvicorn api_diagnostico:app --reload --port 8001
 
    
 5. Abre en el navegador la documentación interactiva oficial para probar la API:  
@@ -63,3 +63,4 @@ y probar python --version, si responde correctamente tu API FastAPI esta prepara
 ---
 
 **¡Listo para desarrollar y probar la app localmente!**
+
